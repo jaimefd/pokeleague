@@ -19,10 +19,39 @@ The column value will be ignored for repeat sections.
 
 export const Formats: import('../sim/dex-formats').FormatList = [
 
+	{
+		section: "No RNG",
+	},
+	{
+		name: "[Gen 9] NoRNG Random Battle",
+		desc: `Randomized teams of Pok&eacute;mon with sets that are generated to be competitively viable.`,
+		mod: 'gen9',
+		team: 'random',
+		ruleset: ['PotD', 'Obtainable', 'Species Clause', 'HP Percentage Mod', 'Cancel Mod', 'Sleep Clause Mod', 'Illusion Level Mod'],
+	},
+	{
+		name: "[Gen 9] NoRNG OU",
+		mod: 'gen9',
+		ruleset: ['Standard', 'Sleep Moves Clause', '!Sleep Clause Mod'],
+		banlist: ['Uber', 'AG', 'Arena Trap', 'Moody', 'Sand Veil', 'Shadow Tag', 'Snow Cloak', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects', 'Shed Tail'],
+	},
+	{
+		name: "[Gen 9] NoRNG Ubers",
+		mod: 'gen9',
+		ruleset: ['Standard'],
+		banlist: ['AG', 'Moody', 'King\'s Rock', 'Razor Fang', 'Baton Pass', 'Last Respects'],
+	},
+	{
+		name: "[Gen 9] NoRNG UU",
+		mod: 'gen9',
+		ruleset: ['[Gen 9] NoRNG OU'],
+		banlist: ['OU', 'UUBL'],
+	},
+
 	// S/V Singles
 	///////////////////////////////////////////////////////////////////
 
-	{
+	/*{
 		section: "S/V Singles",
 	},
 	{
@@ -4361,5 +4390,5 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		debug: true,
 		battle: {trunc: Math.trunc},
 		ruleset: ['HP Percentage Mod', 'Cancel Mod', 'Desync Clause Mod', 'Max Team Size = 24', 'Max Move Count = 24', 'Max Level = 9999', 'Default Level = 100'],
-	},
+	},*/
 ];
