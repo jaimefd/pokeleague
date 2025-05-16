@@ -4516,7 +4516,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	partingshot: {
 		name: "Última palabra",
-		desc: "Reduce en un nivel el Ataque y el Ataque Especial del objetivo. Si este movimiento tiene éxito, el usuario cambia incluso si está atrapado y es reemplazado inmediatamente por un miembro del equipo seleccionado. El usuario no cambia si los estadios de Ataque y Ataque Especial del objetivo permanecen sin cambios, o si no hay miembros en el equipo sin debilitar.",
+		desc: "Reduce en un nivel el Ataque y el Ataque Especial del objetivo. Si este movimiento tiene éxito, el usuario cambia incluso si está atrapado y es reemplazado inmediatamente por un miembro del equipo seleccionado. El usuario no cambia si las estadísticas de Ataque y Ataque Especial del objetivo permanecen sin cambios, o si no hay miembros en el equipo sin debilitar.",
 		shortDesc: "Baja Atq. y Atq. Esp. 1 nivel al objetivo. Usuario cambia.",
 		gen6: {
 			desc: "Reduce en un nivel el Ataque y el Ataque Especial del objetivo. Si este movimiento tiene éxito, el usuario cambia incluso si está atrapado y es reemplazado inmediatamente por un miembro del equipo seleccionado. El usuario no cambia si no hay miembros en el equipo sin debilitar.",
@@ -4736,19 +4736,19 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	powerswap: {
 		name: "Cambiafuerza",
-		desc: "El usuario intercambia sus variaciones de estadios de Ataque y Ataque Especial con las del objetivo.",
-		shortDesc: "Intercambia estadios de Atq. y Atq. Esp. con el objetivo.",
+		desc: "El usuario intercambia sus cambios de estadísticas de Ataque y Ataque Especial con las del objetivo.",
+		shortDesc: "Intercambia cambios de Atq. y Atq. Esp. con el objetivo.",
 	},
 	powershift: {
 		name: "Cambiapoder",
-		desc: "El usuario intercambia sus estadísticas de Ataque y Defensa, y las variaciones de estadios permanecen en sus estadísticas originales. Este movimiento puede usarse de nuevo para volver a intercambiar las estadísticas. Si el usuario usa Relevo, el Pokémon que entre tendrá sus estadísticas de Ataque y Defensa intercambiadas si el efecto está activo. Si las estadísticas del usuario se recalculan al cambiar de forma mientras están intercambiadas, este efecto se ignora pero sigue activo para Relevo.",
+		desc: "El usuario intercambia sus estadísticas de Ataque y Defensa, y los cambios de estadísticas permanecen en sus valores originales. Este movimiento puede usarse de nuevo para volver a intercambiar las estadísticas. Si el usuario usa Relevo, el Pokémon que entre tendrá sus estadísticas de Ataque y Defensa intercambiadas si el efecto está activo. Si las estadísticas del usuario se recalculan al cambiar de forma mientras están intercambiadas, este efecto se ignora pero sigue activo para Relevo.",
 		shortDesc: "Intercambia estadísticas de Atq. y Def. del usuario.",
 		start: "  ¡[POKEMON] intercambió sus estadísticas ofensivas con las defensivas!",
 		end: "#.start",
 	},
 	powertrick: {
 		name: "Truco fuerza",
-		desc: "El usuario intercambia sus estadísticas de Ataque y Defensa, y las variaciones de estadios permanecen en sus estadísticas originales. Este movimiento puede usarse de nuevo para volver a intercambiar las estadísticas. Si el usuario usa Relevo, el Pokémon que entre tendrá sus estadísticas de Ataque y Defensa intercambiadas si el efecto está activo. Si las estadísticas del usuario se recalculan al cambiar de forma mientras están intercambiadas, este efecto se ignora pero sigue activo para Relevo.",
+		desc: "El usuario intercambia sus estadísticas de Ataque y Defensa, y los cambios de estadísticas permanecen en sus valores originales. Este movimiento puede usarse de nuevo para volver a intercambiar las estadísticas. Si el usuario usa Relevo, el Pokémon que entre tendrá sus estadísticas de Ataque y Defensa intercambiadas si el efecto está activo. Si las estadísticas del usuario se recalculan al cambiar de forma mientras están intercambiadas, este efecto se ignora pero sigue activo para Relevo.",
 		shortDesc: "Intercambia estadísticas de Atq. y Def. del usuario.",
 		start: "  ¡[POKEMON] intercambió Ataque y Defensa!",
 		end: "#.start",
@@ -4825,10 +4825,10 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	psychup: {
 		name: "Autosugestión",
-		desc: "El usuario copia todas las variaciones de estadios del objetivo.",
-		shortDesc: "Copia los estadios del objetivo.",
+		desc: "El usuario copia todos los cambios de estadísticas del objetivo.",
+		shortDesc: "Copia los cambios de estadísticas del objetivo.",
 		gen2: {
-			desc: "El usuario copia todas las variaciones de estadios del objetivo. Falla si los estadios son 0.",
+			desc: "El usuario copia todos los cambios de estadísticas del objetivo. Falla si los cambios son 0.",
 		},
 	},
 	psychic: {
@@ -4906,7 +4906,7 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 	},
 	punishment: {
 		name: "Castigo",
-		desc: "La potencia es 60+(X*20), donde X es el total de estadios de mejora del objetivo mayores que 0; no supera los 200 de potencia.",
+		desc: "La potencia es 60+(X*20), donde X es el total de cambios de estadísticas del objetivo mayores que 0; no supera los 200 de potencia.",
 		shortDesc: "60 de potencia +20 por cada aumento de estadística del objetivo.",
 	},
 	purify: {
