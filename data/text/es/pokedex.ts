@@ -3545,6 +3545,423 @@ export const PokedexText: { [id: IDEntry]: PokedexText } = {
 	enamorustherian: {
 		name: "Enamorus tótem",
 	},
+	sprigatito: {
+		name: "Sprigatito",
+	},
+	floragato: {
+		name: "Floragato",
+	},
+	meowscarada: {
+		name: "Meowscarada",
+	},
+	fuecoco: {
+		name: "Fuecoco",
+	},
+	crocalor: {
+		name: "Crocalor",
+	},
+	skeledirge: {
+		name: "Skeledirge",
+	},
+	quaxly: {
+		name: "Quaxly",
+	},
+	quaxwell: {
+		name: "Quaxwell",
+	},
+	quaquaval: {
+		name: "Quaquaval",
+	},
+	lechonk: {
+		name: "Lechonk",
+	},
+	oinkologne: {
+		name: "Oinkologne",
+	},
+	oinkolognef: {
+		name: "Oinkologne-Hembra",
+	},
+	tarountula: {
+		name: "Tarountula",
+	},
+	spidops: {
+		name: "Spidops",
+	},
+	nymble: {
+		name: "Nymble",
+	},
+	lokix: {
+		name: "Lokix",
+	},
+	pawmi: {
+		name: "Pawmi",
+	},
+	pawmo: {
+		name: "Pawmo",
+	},
+	pawmot: {
+		name: "Pawmot",
+	},
+	tandemaus: {
+		name: "Tandemaus",
+	},
+	maushold: {
+		name: "Maushold",
+	},
+	mausholdfour: {
+		name: "Maushold-Cuatro",
+	},
+	fidough: {
+		name: "Fidough",
+	},
+	dachsbun: {
+		name: "Dachsbun",
+	},
+	smoliv: {
+		name: "Smoliv",
+	},
+	dolliv: {
+		name: "Dolliv",
+	},
+	arboliva: {
+		name: "Arboliva",
+	},
+	squawkabilly: {
+		name: "Squawkabilly",
+	},
+	squawkabillyblue: {
+		name: "Squawkabilly-Azul",
+	},
+	squawkabillyyellow: {
+		name: "Squawkabilly-Amarillo",
+	},
+	squawkabillywhite: {
+		name: "Squawkabilly-Blanco",
+	},
+	nacli: {
+		name: "Nacli",
+	},
+	naclstack: {
+		name: "Naclstack",
+	},
+	garganacl: {
+		name: "Garganacl",
+	},
+	charcadet: {
+		name: "Charcadet",
+	},
+	armarouge: {
+		name: "Armarouge",
+	},
+	ceruledge: {
+		name: "Ceruledge",
+	},
+	tadbulb: {
+		name: "Tadbulb",
+	},
+	bellibolt: {
+		name: "Bellibolt",
+	},
+	wattrel: {
+		name: "Wattrel",
+	},
+	kilowattrel: {
+		name: "Kilowattrel",
+	},
+	maschiff: {
+		name: "Maschiff",
+	},
+	mabosstiff: {
+		name: "Mabosstiff",
+	},
+	shroodle: {
+		name: "Shroodle",
+	},
+	grafaiai: {
+		name: "Grafaiai",
+	},
+	bramblin: {
+		name: "Bramblin",
+	},
+	brambleghast: {
+		name: "Brambleghast",
+	},
+	toedscool: {
+		name: "Toedscool",
+	},
+	toedscruel: {
+		name: "Toedscruel",
+	},
+	klawf: {
+		name: "Klawf",
+	},
+	capsakid: {
+		name: "Capsakid",
+	},
+	scovillain: {
+		name: "Scovillain",
+	},
+	rellor: {
+		name: "Rellor",
+	},
+	rabsca: {
+		name: "Rabsca",
+	},
+	flittle: {
+		name: "Flittle",
+	},
+	espathra: {
+		name: "Espathra",
+	},
+	tinkatink: {
+		name: "Tinkatink",
+	},
+	tinkatuff: {
+		name: "Tinkatuff",
+	},
+	tinkaton: {
+		name: "Tinkaton",
+	},
+	wiglett: {
+		name: "Wiglett",
+	},
+	wugtrio: {
+		name: "Wugtrio",
+	},
+	bombirdier: {
+		name: "Bombirdier",
+	},
+	finizen: {
+		name: "Finizen",
+	},
+	palafin: {
+		name: "Palafin",
+	},
+	palafinhero: {
+		name: "Palafin-Héroe",
+	},
+	varoom: {
+		name: "Varoom",
+	},
+	revavroom: {
+		name: "Revavroom",
+	},
+	cyclizar: {
+		name: "Cyclizar",
+	},
+	orthworm: {
+		name: "Orthworm",
+	},
+	glimmet: {
+		name: "Glimmet",
+	},
+	glimmora: {
+		name: "Glimmora",
+	},
+	greavard: {
+		name: "Greavard",
+	},
+	houndstone: {
+		name: "Houndstone",
+	},
+	flamigo: {
+		name: "Flamigo",
+	},
+	cetoddle: {
+		name: "Cetoddle",
+	},
+	cetitan: {
+		name: "Cetitan",
+	},
+	veluza: {
+		name: "Veluza",
+	},
+	dondozo: {
+		name: "Dondozo",
+	},
+	tatsugiri: {
+		name: "Tatsugiri",
+	},
+	annihilape: {
+		name: "Annihilape",
+	},
+	clodsire: {
+		name: "Clodsire",
+	},
+	farigiraf: {
+		name: "Farigiraf",
+	},
+	dudunsparce: {
+		name: "Dudunsparce",
+	},
+	dudunsparcethreesegment: {
+		name: "Dudunsparce-Trinodular",
+	},
+	kingambit: {
+		name: "Kingambit",
+	},
+	greattusk: {
+		name: "Colmilargo",
+	},
+	screamtail: {
+		name: "Colagrito",
+	},
+	brutebonnet: {
+		name: "Furioseta",
+	},
+	fluttermane: {
+		name: "Melenaleteo",
+	},
+	slitherwing: {
+		name: "Reptalada",
+	},
+	sandyshocks: {
+		name: "Pelarena",
+	},
+	irontreads: {
+		name: "Ferrodada",
+	},
+	ironbundle: {
+		name: "Ferrosaco",
+	},
+	ironhands: {
+		name: "Ferropalmas",
+	},
+	ironjugulis: {
+		name: "Ferrocuello",
+	},
+	ironmoth: {
+		name: "Ferropolilla",
+	},
+	ironthorns: {
+		name: "Ferropúas",
+	},
+	frigibax: {
+		name: "Frigibax",
+	},
+	arctibax: {
+		name: "Arctibax",
+	},
+	baxcalibur: {
+		name: "Baxcalibur",
+	},
+	gimmighoul: {
+		name: "Gimmighoul",
+	},
+	gimmighoulroaming: {
+		name: "Gimmighoul-Andante",
+	},
+	gholdengo: {
+		name: "Gholdengo",
+	},
+	wochien: {
+		name: "Wo-Chien",
+	},
+	chienpao: {
+		name: "Chien-Pao",
+	},
+	tinglu: {
+		name: "Ting-Lu",
+	},
+	chiyu: {
+		name: "Chi-Yu",
+	},
+	roaringmoon: {
+		name: "Bramaluna",
+	},
+	ironvaliant: {
+		name: "Ferropaladín",
+	},
+	koraidon: {
+		name: "Koraidon",
+	},
+	miraidon: {
+		name: "Miraidon",
+	},
+	walkingwake: {
+		name: "Ondulagua",
+	},
+	ironleaves: {
+		name: "Ferroverdor",
+	},
+	dipplin: {
+		name: "Dipplin",
+	},
+	poltchageist: {
+		name: "Poltchageist",
+	},
+	poltchageistartisan: {
+		name: "Poltchageist-Opulenta",
+	},
+	sinistcha: {
+		name: "Sinistcha",
+	},
+	sinistchamasterpiece: {
+		name: "Sinistcha-Exquisita",
+	},
+	okidogi: {
+		name: "Okidogi",
+	},
+	munkidori: {
+		name: "Munkidori",
+	},
+	fezandipiti: {
+		name: "Fezandipiti",
+	},
+	ogerpon: {
+		name: "Ogerpon",
+	},
+	ogerponwellspring: {
+		name: "Ogerpon-Fuente",
+	},
+	ogerponhearthflame: {
+		name: "Ogerpon-Horno",
+	},
+	ogerponcornerstone: {
+		name: "Ogerpon-Cimiento",
+	},
+	ogerpontealtera: {
+		name: "Ogerpon-Turquesa-Tera",
+	},
+	ogerponwellspringtera: {
+		name: "Ogerpon-Fuente-Tera",
+	},
+	ogerponhearthflametera: {
+		name: "Ogerpon-Horno-Tera",
+	},
+	ogerponcornerstonetera: {
+		name: "Ogerpon-Cimiento-Tera",
+	},
+	archaludon: {
+		name: "Archaludon",
+	},
+	hydrapple: {
+		name: "Hydrapple",
+	},
+	gougingfire: {
+		name: "Flamariete",
+	},
+	ragingbolt: {
+		name: "Electrofuria",
+	},
+	ironboulder: {
+		name: "Ferromole",
+	},
+	ironcrown: {
+		name: "Ferrotesta",
+	},
+	terapagos: {
+		name: "Terapagos",
+	},
+	terapagosterastal: {
+		name: "Terapagos-Teracristal",
+	},
+	terapagosstellar: {
+		name: "Terapagos-Astral",
+	},
+	pecharunt: {
+		name: "Pecharunt",
+	},
 	missingno: {
 		name: "MissingNo.",
 	},
