@@ -87,6 +87,10 @@ interface DexTableData {
 	Conditions: DexTable<import('./dex-conditions').ConditionData>;
 	TypeChart: DexTable<import('./dex-data').TypeData>;
 }
+
+export const LANGUAGES = ['en', 'es'] as const;
+export type Language = typeof LANGUAGES[number];
+
 interface TextTableData {
 	Abilities: DexTable<AbilityText>;
 	Items: DexTable<ItemText>;
@@ -119,7 +123,7 @@ export class ModdedDex {
 	modsLoaded = false;
 
 	dataCache: DexTableData | null;
-	textCache: TextTableData | null;
+	textCache: Record<Language, TextTableData> | null;
 
 	deepClone = Utils.deepClone;
 	deepFreeze = Utils.deepFreeze;
@@ -278,7 +282,7 @@ export class ModdedDex {
 				shortDesc: dataEntry.shortDesc,
 			};
 		}
-		const entry = this.loadTextData()[table][id];
+		const entry = this.loadTextData()['en'][table][id];
 		if (!entry) return null;
 		const descs = {
 			desc: '',
@@ -441,9 +445,9 @@ export class ModdedDex {
 	}
 
 	loadTextFile(
-		name: string, exportName: string
+		name: string, exportName: string, lang = 'en'
 	): DexTable<MoveText | ItemText | AbilityText | PokedexText | DefaultText> {
-		return require(`${DATA_DIR}/text/${name}`)[exportName];
+		return require(`${DATA_DIR}/text/${lang}/${name}`)[exportName];
 	}
 
 	includeMods(): this {
@@ -471,14 +475,20 @@ export class ModdedDex {
 	}
 
 	loadTextData() {
-		if (dexes['base'].textCache) return dexes['base'].textCache;
-		dexes['base'].textCache = {
-			Pokedex: this.loadTextFile('pokedex', 'PokedexText') as DexTable<PokedexText>,
-			Moves: this.loadTextFile('moves', 'MovesText') as DexTable<MoveText>,
-			Abilities: this.loadTextFile('abilities', 'AbilitiesText') as DexTable<AbilityText>,
-			Items: this.loadTextFile('items', 'ItemsText') as DexTable<ItemText>,
-			Default: this.loadTextFile('default', 'DefaultText') as DexTable<DefaultText>,
-		};
+		if (!dexes['base'].textCache) {
+			dexes['base'].textCache = {} as Record<Language, TextTableData>;
+
+			for (const lang of LANGUAGES) {
+				const bundle: TextTableData = {
+					Pokedex: this.loadTextFile('pokedex', 'PokedexText', lang) as DexTable<PokedexText>,
+					Moves: this.loadTextFile('moves', 'MovesText', lang) as DexTable<MoveText>,
+					Abilities: this.loadTextFile('abilities', 'AbilitiesText', lang) as DexTable<AbilityText>,
+					Items: this.loadTextFile('items', 'ItemsText', lang) as DexTable<ItemText>,
+					Default: this.loadTextFile('default', 'DefaultText', lang) as DexTable<DefaultText>,
+				};
+				dexes['base'].textCache[lang] = bundle;
+			}
+		}
 		return dexes['base'].textCache;
 	}
 
