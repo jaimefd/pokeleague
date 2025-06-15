@@ -187,7 +187,7 @@ export const DefaultText: { [id: IDEntry]: DefaultText } = {
 		tooltipWind: "Viento <small>(activa Energía eólica y Surcavientos)</small>",
 
 		// Battle UI strings
-		uiWhatWillDo: "¿Qué hará [POKEMON]?",
+		uiWhatWillDo: "¿Qué hará <strong>[POKEMON]</strong>?",
 		uiAttack: "Atacar",
 		uiSwitch: "Cambiar",
 		uiTimer: "Temporizador",
@@ -220,15 +220,19 @@ export const DefaultText: { [id: IDEntry]: DefaultText } = {
 		uiSwitchViewpoint: "Cambiar punto de vista",
 		uiLoading: "Cargando...",
 		uiPrevTurn: "Turno anterior",
-		firstTurn: "Primer turno",
-		skipTurn: "Saltar turno",
-		skipToEnd: "Saltar al final",
+		uiFirstTurn: "Primer turno",
+		uiSkipTurn: "Saltar turno",
+		uiSkipToEnd: "Saltar al final",
 
 		// Battle error messages
 		uiErrorInvalidPokemon: "Pokémon inválido",
 		uiErrorMaxedNoMaxMoves: "Maximizado sin movimientos máximos",
 		uiErrorNoZMoves: "Sin movimientos Z",
 		uiErrorMissingChoiceBuilder: "Error: Falta BattleChoiceBuilder",
+
+		// Team icon tooltips
+		tooltipUnrevealedIllusion: "Usuario de Ilusión no revelado",
+		tooltipNotRevealed: "No revelado",
 
 		// Battle list UI
 		close: "Cerrar",

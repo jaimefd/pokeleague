@@ -188,7 +188,7 @@ export const DefaultText: { [id: IDEntry]: DefaultText } = {
 		tooltipWind: "Wind <small>(activates Wind Power and Wind Rider)</small>",
 
 		// Battle UI strings
-		uiWhatWillDo: "What will [POKEMON] do?",
+		uiWhatWillDo: "What will <strong>[POKEMON]</strong> do?",
 		uiAttack: "Attack",
 		uiSwitch: "Switch",
 		uiTimer: "Timer",
@@ -230,6 +230,10 @@ export const DefaultText: { [id: IDEntry]: DefaultText } = {
 		uiErrorMaxedNoMaxMoves: "Maxed with no max moves",
 		uiErrorNoZMoves: "No Z moves",
 		uiErrorMissingChoiceBuilder: "Error: Missing BattleChoiceBuilder",
+
+		// Team icon tooltips
+		tooltipUnrevealedIllusion: "Unrevealed Illusion user",
+		tooltipNotRevealed: "Not revealed",
 
 		// Battle list UI
 		close: "Close",
