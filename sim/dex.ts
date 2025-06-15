@@ -89,6 +89,7 @@ interface DexTableData {
 }
 
 export const LANGUAGES = ['en', 'es'] as const;
+export const DEFAULT_LANGUAGE = 'en';
 export type Language = typeof LANGUAGES[number];
 
 interface TextTableData {
@@ -445,8 +446,11 @@ export class ModdedDex {
 	}
 
 	loadTextFile(
-		name: string, exportName: string, lang = 'en'
+		name: string, exportName: string, lang = DEFAULT_LANGUAGE
 	): DexTable<MoveText | ItemText | AbilityText | PokedexText | DefaultText> {
+		if (lang === DEFAULT_LANGUAGE) {
+			return require(`${DATA_DIR}/text/${name}`)[exportName];
+		}
 		return require(`${DATA_DIR}/text/${lang}/${name}`)[exportName];
 	}
 
