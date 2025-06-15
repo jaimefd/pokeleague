@@ -186,6 +186,65 @@ export const DefaultText: { [id: IDEntry]: DefaultText } = {
 		tooltipBullet: "Bullet-like <small>(doesn't affect Bulletproof pokemon)</small>",
 		tooltipSlicing: "Slicing <small>(boosted by Sharpness)</small>",
 		tooltipWind: "Wind <small>(activates Wind Power and Wind Rider)</small>",
+
+		// Battle UI strings
+		uiWhatWillDo: "What will [POKEMON] do?",
+		uiAttack: "Attack",
+		uiSwitch: "Switch",
+		uiTimer: "Timer",
+		uiCancel: "Cancel",
+		uiBack: "Back",
+		uiWaitingForOpponent: "Waiting for opponent...",
+		uiTurnNumber: "Turn [NUMBER]",
+		uiNoWeather: "(no weather)",
+		uiMoveToCenter: "Move to center",
+		uiShift: "Shift",
+		uiWillUse: "[POKEMON] will use [MOVE]",
+		uiWillSwitch: "[POKEMON] will switch to [POKEMON]",
+		uiWillShift: "[POKEMON] will shift to the center",
+		uiMegaEvolve: "Mega Evolution",
+		uiMegaEvolveX: "Mega Evolution X",
+		uiMegaEvolveY: "Mega Evolution Y",
+		uiUltraBurst: "Ultra Burst",
+		uiTerastallize: "Terastallize",
+		uiGigantamax: "Gigantamax",
+		uiDynamax: "Dynamax",
+		uiZPower: "Z-Power",
+		uiShouldUseAt: "[POKEMON] should use [MOVE] at where?",
+		uiWhatAboutRest: "What about the rest of your team?",
+		uiHowWillStart: "How will you start the battle?",
+		uiAtSlot: "at slot [NUMBER]",
+		uiAtAllySlot: "at ally slot [NUMBER]",
+		uiAt: "at [POKEMON]",
+		uiAtAlly: "at ally [POKEMON]",
+		uiAnd: "and",
+		uiSwitchViewpoint: "Switch viewpoint",
+		uiLoading: "Loading...",
+		uiPrevTurn: "Prev turn",
+		uiFirstTurn: "First turn",
+		uiSkipTurn: "Skip turn",
+		uiSkipToEnd: "Skip to end",
+
+		// Battle error messages
+		uiErrorInvalidPokemon: "Invalid pokemon",
+		uiErrorMaxedNoMaxMoves: "Maxed with no max moves",
+		uiErrorNoZMoves: "No Z moves",
+		uiErrorMissingChoiceBuilder: "Error: Missing BattleChoiceBuilder",
+
+		// Battle list UI
+		close: "Close",
+		refresh: "Refresh",
+		format: "Format:",
+		minimumElo: "Minimum Elo:",
+		none: "None",
+
+		// End of battle UI
+		mainMenu: "Main menu",
+		closesThisBattle: "(closes this battle)",
+		rematch: "Rematch",
+		battles: "Battles",
+		noBattlesGoingOn: "No battles are going on",
+		meloettaTooltip: "Meloetta is PS's mascot! The Pirouette forme is Fighting-type, and represents our battles.",
 	},
 
 	// stats
@@ -422,8 +481,7 @@ export const DefaultText: { [id: IDEntry]: DefaultText } = {
 	watersport: {
 		start: "  Fire's power was weakened!",
 		end: "  The effects of Water Sport have faded.",
-	},
-	wonderroom: {
+	},	wonderroom: {
 		start: "  It created a bizarre area in which Defense and Sp. Def stats are swapped!",
 		end: "  Wonder Room wore off, and Defense and Sp. Def stats returned to normal!",
 	},

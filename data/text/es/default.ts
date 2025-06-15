@@ -24,7 +24,6 @@ export const DefaultText: { [id: IDEntry]: DefaultText } = {
 		// Multi Battles only
 		canDynamax: "  ¡[TRAINER] puede dinamaxizar ahora!",
 		canDynamaxOwn: "  ¡Energía dinamax se acumuló alrededor de [TRAINER]!",
-
 		zEffect: "  ¡[POKEMON] desata su Movimiento Z con toda su fuerza!",
 		move: "[POKEMON] usó **[MOVE]**!",
 		abilityActivation: "[La habilidad [ABILITY] de [POKEMON]]",
@@ -186,6 +185,65 @@ export const DefaultText: { [id: IDEntry]: DefaultText } = {
 		tooltipBullet: "Bala <small>(no afecta a pokemon con Antibalas)</small>",
 		tooltipSlicing: "Corte <small>(potenciado por Cortante)</small>",
 		tooltipWind: "Viento <small>(activa Energía eólica y Surcavientos)</small>",
+
+		// Battle UI strings
+		uiWhatWillDo: "¿Qué hará [POKEMON]?",
+		uiAttack: "Atacar",
+		uiSwitch: "Cambiar",
+		uiTimer: "Temporizador",
+		uiCancel: "Cancelar",
+		uiBack: "Atrás",
+		uiWaitingForOpponent: "Esperando al oponente...",
+		uiTurnNumber: "Turno [NUMBER]",
+		uiNoWeather: "(sin clima)",
+		uiMoveToCenter: "Mover al centro",
+		uiShift: "Cambiar posición",
+		uiWillUse: "[POKEMON] usará [MOVE]",
+		uiWillSwitch: "[POKEMON] cambiará a [POKEMON]",
+		uiWillShift: "[POKEMON] se moverá al centro",
+		uiMegaEvolve: "Megaevolución",
+		uiMegaEvolveX: "Megaevolución (X)",
+		uiMegaEvolveY: "Megaevolución (Y)",
+		uiUltraBurst: "Ultraexplosión",
+		uiTerastallize: "Teracristalizar",
+		uiGigantamax: "Gigamax",
+		uiDynamax: "Dynamax",
+		uiZPower: "Poder Z",
+		uiShouldUseAt: "¿[POKEMON] debería usar [MOVE] contra quién?",
+		uiWhatAboutRest: "¿Qué hay del resto de tu equipo?",
+		uiHowWillStart: "¿Cómo quieres empezar la batalla?",
+		uiAtSlot: "en la posición [NUMBER]",
+		uiAtAllySlot: "en la posición aliada [NUMBER]",
+		uiAt: "contra [POKEMON]",
+		uiAtAlly: "contra el aliado [POKEMON]",
+		uiAnd: "y",
+		uiSwitchViewpoint: "Cambiar punto de vista",
+		uiLoading: "Cargando...",
+		uiPrevTurn: "Turno anterior",
+		firstTurn: "Primer turno",
+		skipTurn: "Saltar turno",
+		skipToEnd: "Saltar al final",
+
+		// Battle error messages
+		uiErrorInvalidPokemon: "Pokémon inválido",
+		uiErrorMaxedNoMaxMoves: "Maximizado sin movimientos máximos",
+		uiErrorNoZMoves: "Sin movimientos Z",
+		uiErrorMissingChoiceBuilder: "Error: Falta BattleChoiceBuilder",
+
+		// Battle list UI
+		close: "Cerrar",
+		refresh: "Actualizar",
+		format: "Formato:",
+		minimumElo: "Elo mínimo:",
+		none: "Ninguno",
+
+		// End of battle UI
+		mainMenu: "Menú principal",
+		closesThisBattle: "(cierra esta batalla)",
+		rematch: "Revancha",
+		battles: "Batallas",
+		noBattlesGoingOn: "No hay batallas en curso",
+		meloettaTooltip: "¡Meloetta es la mascota de PS! La forma danza es de tipo Lucha y representa nuestras batallas.",
 	},
 
 	// stats
